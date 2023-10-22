@@ -5,16 +5,16 @@
 %------------------------------------------------------------
 
 %------------------------------------------------------------
-%			      Poczπtek pracy dyplomowej  
+%			      PoczƒÖtek pracy dyplomowej  
 %------------------------------------------------------------
 
 \begin{document}
 
 %------------------------------------------------------------
-%  Dodanie strony tytu≥owej wygenerowanej z MojaPG oraz 
-%  						oúwiadczenia
+%  Dodanie strony tytu≈Çowej wygenerowanej z MojaPG oraz 
+%  						o≈õwiadczenia
 
-%\includepdf{meta/strona_tytulowa.pdf}
+\includepdf{meta/StronaTytulowa.pdf}
 %\includepdf{meta/oswiadczenie.pdf}
 
 %------------------------------------------------------------
@@ -25,18 +25,23 @@
 \input{meta/abstract.tex}
 
 %------------------------------------------------------------
-%	Utworzenie spisu treúci pracy dyplomowej
+%	Utworzenie spisu tre≈õci pracy dyplomowej
 \tableofcontents
 
 %------------------------------------------------------------
-%	Dodanie wykazu wazniejszych skrÛtÛw i oznaczeÒ 
+%	Dodanie wykazu wazniejszych skr√≥t√≥w i oznacze√± 
 \input{meta/oznaczenia.tex}
 
 %------------------------------------------------------------
-%	Dodanie rozdzia≥Ûw pracy dyplomowej - g≥Ûwne cia≥o dokumentu 
+%	Dodanie rozdzia≈Ç√≥w pracy dyplomowej - g≈Ç√≥wne cia≈Ço dokumentu 
 
-\input{rozdzialy/przyklad_rozdzialu_1.tex}
-\input{rozdzialy/przyklad_rozdzialu_2.tex}
+\input{rozdzialy/wstep_i_cel_pracy.tex}
+\input{rozdzialy/opis_stanu_wiedzy.tex}
+\input{rozdzialy/implementacja.tex}
+\input{rozdzialy/instrukcja.tex}
+\input{rozdzialy/doswiadczenia.tex}
+\input{rozdzialy/kierunki_dalszych_prac.tex}
+%\input{rozdzialy/przyklad_rozdzialu_2.tex}
 %\input{rozdzialy/przyklad_rozdzialu_3.tex}
 
 % itd...
@@ -46,21 +51,21 @@
 % -----------------------------------------------------------
 
 %------------------------------------------------------------
-%	Dodanie wykazu rysunkÛw oraz tabeli
+%	Dodanie wykazu rysunk√≥w oraz tabeli
 
-\renewcommand{\baselinestretch}{1.0}\normalsize	% interlinia w sekcji wykazÛw
-\addcontentsline{toc}{chapter}{\listfigurename}	% dodanie wykazu rysunkÛw do spisu treúci
-\listoffigures									% generacja wykazu rysunkÛw
+\renewcommand{\baselinestretch}{1.0}\normalsize	% interlinia w sekcji wykaz√≥w
+\addcontentsline{toc}{chapter}{\listfigurename}	% dodanie wykazu rysunk√≥w do spisu tre≈õci
+\listoffigures									% generacja wykazu rysunk√≥w
 
-\addcontentsline{toc}{chapter}{\listtablename}	% dodanie wykazu tabel do spisu treúci
+\addcontentsline{toc}{chapter}{\listtablename}	% dodanie wykazu tabel do spisu tre≈õci
 \listoftables									% generacja wykazu tabel
-\renewcommand{\baselinestretch}{1.3}\normalsize	% powrÛt do interlinii 1.5
+\renewcommand{\baselinestretch}{1.3}\normalsize	% powr√≥t do interlinii 1.5
 
 
 % ---------------------- DODATKI -----------------------
 \chapter*{Dodatek A}
-\addcontentsline{toc}{chapter}{Dodatek A}
-% Zaleønie od dodatku, zaleca siÍ dodawaÊ dodatki jako
+\addcontentsline{toc}{chapter}{DODATEK A}
+% Zale≈ºnie od dodatku, zaleca siƒô dodawaƒá dodatki jako
 % dokumenty PDF
 % \includepdf{dodatki/dodatek1.pdf}
 

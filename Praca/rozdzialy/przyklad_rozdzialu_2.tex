@@ -1,4 +1,4 @@
-\chapter{Drugi rozdzia³}
+\chapter{Drugi rozdziaÅ‚}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum arcu nec blandit aliquam. Integer eros dolor, molestie eget dictum quis, luctus sit amet sapien. Proin dignissim felis in ornare volutpat. Morbi vulputate rutrum efficitur. Ut vehicula vehicula metus, et iaculis tortor mattis vel. Nam blandit, arcu quis ultricies blandit, libero ante commodo augue, in accumsan dui leo at orci. Phasellus in augue et velit pulvinar malesuada ut et sem. Nulla vehicula nibh eu odio sollicitudin sagittis. Praesent condimentum semper neque, tincidunt luctus nisl scelerisque sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 Donec in libero a enim tempor finibus. Etiam in turpis sed metus ultricies pharetra vitae a ipsum. Nullam elementum est a vehicula convallis. Praesent vel eleifend quam, id eleifend tortor. Vestibulum non sollicitudin arcu. Nunc ultricies, ex sit amet faucibus elementum, erat est finibus lacus, non porttitor metus mi sed purus. Mauris at volutpat quam. Nam vel varius elit. Donec a urna vitae felis posuere facilisis. Suspendisse id enim quis massa imperdiet ultrices quis eu nibh. Pellentesque in elit ut tortor pharetra condimentum. Fusce non dapibus arcu, non blandit odio. Suspendisse faucibus fermentum neque quis dapibus.
@@ -9,7 +9,7 @@ Maecenas tincidunt est sit amet porttitor suscipit. Nullam rutrum lectus ut odio
 \begin{figure}[ht]
 \centering
 \includegraphics[scale=0.25]{rysunki/example}
-\caption{Przyk³adowy obraz zamieszczony w pracy dyplomowej}
+\caption{PrzykÅ‚adowy obraz zamieszczony w pracy dyplomowej}
 \label{img/template1}
 \end{figure}
 Vestibulum lorem elit, ornare vitae ultrices non, rhoncus eu elit. Vestibulum et gravida erat. Sed ut velit sollicitudin, blandit libero nec, maximus felis. Morbi feugiat pharetra lacus sit amet sodales. Aenean a sem elit. Ut et augue justo. Sed id consequat magna, non tincidunt eros. Sed congue tellus vitae ipsum commodo, nec pretium quam congue. Fusce non imperdiet sem, at imperdiet nibh. Morbi convallis nisl ante. Maecenas hendrerit, augue ac pretium molestie, ex massa lacinia est, sit amet volutpat eros magna vel erat.
@@ -20,25 +20,25 @@ Vestibulum lorem elit, ornare vitae ultrices non, rhoncus eu elit. Vestibulum et
 
 \begin{table}[ht]
 \captionsetup{justification=centering}
-\caption{Dane techniczne silnika napêdowego uk³adu jezdnego}
+\caption{Dane techniczne silnika napÄ™dowego ukÅ‚adu jezdnego}
 \centering
     \begin{tabular}{|l|l|c|}
     \hline
-    \multicolumn{1}{|l|}{\textbf{Lp.}} & \multicolumn{1}{l|}{\textbf{Parametr}} & \multicolumn{1}{c|}{\textbf{Wartoœæ}} \\
+    \multicolumn{1}{|l|}{\textbf{Lp.}} & \multicolumn{1}{l|}{\textbf{Parametr}} & \multicolumn{1}{c|}{\textbf{WartoÅ›Ã¦}} \\
     \hline
-       1.   & Napiêcie zasilania [V] & 12  \\
+       1.   & NapiÄ™cie zasilania [V] & 12  \\
     \hline
-       2.   &  Prêdkoœæ obrotowa [obr/min]& 200\\
+       2.   &  PrÄ™dkoÅ›Ã¦ obrotowa [obr/min]& 200\\
     \hline
        3.  & Moment obrotowy [Nm]   & 0.8 \\
     \hline
-       4.  & Maks. pr¹d pracy [A]      &  0.8 \\
+       4.  & Maks. prÂ¹d pracy [A]      &  0.8 \\
     \hline
-       5.  & Œrednica wa³u [mm]     &  8 \\
+       5.  & Å›rednica waÅ‚u [mm]     &  8 \\
     \hline
        6.  & Rodzaj czujnika     &  Inkrementalny   \\
     \hline
-       7.  & Rozdzielczoœæ enkodera [imp/obr]   &  75 \\
+       7.  & RozdzielczoÅ›Ã¦ enkodera [imp/obr]   &  75 \\
     \hline
     \end{tabular}
   \label{silnik_skret}
@@ -62,27 +62,26 @@ Nunc egestas mauris sit amet sem facilisis, in rutrum quam faucibus. Etiam ornar
 
 \lstset{style=matlab}
 
-\begin{lstlisting}[caption={Przyk³adowy listing programu Matlab}]
+\begin{lstlisting}[caption={PrzykÅ‚adowy listing programu Matlab}]
 for n = 1 : 4
     
     for j = 1 : 100
         Imp_1_100(n,j) = (R1*R2*C2*i*j*2*pi + R1 + R2);
     end
     
-    % Zmiana wartoœci  
     
     if log(abs(Imp_1_100(n,100))) - log(Rr) <= 2
         Rr = Rr/10;
     end
     
-    RT(n) = Rr;  % Przypisanie wartoœci
+    RT(n) = Rr; 
 end
 \end{lstlisting}
 
 
 \lstset{style=java}
 
-\begin{lstlisting}[caption={Przyk³adowy listing w jêzyku Java},label=javovy]
+\begin{lstlisting}[caption={PrzykÅ‚adowy listing w jÄ™zyku Java},label=javovy]
 class OuterClass {
   int x = 10;
 
@@ -108,7 +107,7 @@ public class MyMainClass {
 
 \lstset{style=vhdl}
 
-\begin{lstlisting}[caption={Przyk³adowy listing w jêzyku VHDL}]
+\begin{lstlisting}[caption={PrzykÅ‚adowy listing w jÄ™zyku VHDL}]
 
 architecture FSMD of gcd is
 begin
@@ -245,11 +244,11 @@ Nunc egestas mauris sit amet sem facilisis, in rutrum quam faucibus. Etiam ornar
     	;
 	% Boxing and labelling noise shapers
 	\draw [color=gray,thick](-0.5,-3) rectangle (9,1);
-	\node at (-0.5,1) [above=5mm, right=0mm] {\textsc{generator szumu I rzêdu}};
+	\node at (-0.5,1) [above=5mm, right=0mm] {\textsc{generator szumu I rzÄ™du}};
 	\draw [color=gray,thick](-0.5,-9) rectangle (12.5,-5);
-	\node at (-0.5,-9) [below=5mm, right=0mm] {\textsc{generator szumu II rzêdu}};
+	\node at (-0.5,-9) [below=5mm, right=0mm] {\textsc{generator szumu II rzÄ™du}};
 \end{tikzpicture}
-\caption{Przyk³adowy schemat blokowy utworzony przy u¿yciu pakietu tikz}
+\caption{PrzykÅ‚adowy schemat blokowy utworzony przy uÅ¼yciu pakietu tikz}
 \end{figure}
 
 Nunc egestas mauris sit amet sem facilisis, in rutrum quam faucibus. Etiam ornare fringilla tellus, sit amet bibendum nulla fermentum vitae. Nullam nec consectetur ipsum. Duis pulvinar libero vel diam lacinia, ac dapibus massa nc egestas mauris sit amet sem facilisis, in rutrum quam faucibus. Etiam ornare fringilla tellus, sit amet bibendum nulla fermentum vitae. Nullam nec consectetur ipsum. Duis pulvinar libero vel diam lacinia, ac dapibus massa.
